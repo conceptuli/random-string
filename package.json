@@ -1,6 +1,6 @@
 {
   "name": "make-random-string",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "generate random string from custom charset (or the default one) and define the length of the string.  Fantastic for when you need to generate a 'throw-away' id",
   "main": "index.js",
   "scripts": {
