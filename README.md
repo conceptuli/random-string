@@ -34,9 +34,13 @@ randomString = require 'make-random-string'
 ###will output an alphanumeric string of with a length of 4, case-mixed###
 x = randomString 4
 
+#$ xJe3
+
 ###will use custom charset - the string will only be made out of the passed arg###
 
 x = randomString 4,'abcd1234'
+
+#$ ad2d
 
 
 ````
