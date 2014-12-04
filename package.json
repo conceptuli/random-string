@@ -1,0 +1,28 @@
+{
+  "name": "random-string",
+  "version": "1.0.0",
+  "description": "generate random string from custom charset (or the default one) and define the length of the string.  Fantastic for when you need to generate a 'throw-away' id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conceptuli/random-string.git"
+  },
+  "keywords": [
+    "string",
+    "random",
+    "string",
+    "conceptuli",
+    "id",
+    "id",
+    "string"
+  ],
+  "author": "Brian Bagdasarian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/conceptuli/random-string/issues"
+  },
+  "homepage": "https://github.com/conceptuli/random-string"
+}
