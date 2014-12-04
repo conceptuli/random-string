@@ -31,10 +31,10 @@ for you sexy coffeeScript folks:
 randomString = require 'make-random-string'
 
 
-###will output an alphanumeric string of with a length of 4, case-mixed
+###will output an alphanumeric string of with a length of 4, case-mixed###
 x = randomString 4
 
-###will use custom charset - the string will only be made out of the passed arg
+###will use custom charset - the string will only be made out of the passed arg###
 
 x = randomString 4,'abcd1234'
 
