@@ -1,7 +1,7 @@
 class randomString
-  constructor: (@len, @charSet) ->
-    @charSet = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789" or @charSet
-    randomString = ''
+  constructor: (@len, charSet) ->
+    @charSet = charSet or "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    randomString = ""
     i = 0
 
     while i < len
@@ -11,6 +11,6 @@ class randomString
     return randomString
 
 
-charSet = 'abcd1234'
-x = randomString 4,charSet
+
+x = randomString 4,'abcd1234'
 console.log x
