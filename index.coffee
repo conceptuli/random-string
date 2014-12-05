@@ -12,5 +12,6 @@ class randomString
 
 
 
-x = randomString 4,'abcd1234'
-console.log x
+module.exports = randomString
+
+
